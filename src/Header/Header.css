@@ -1,0 +1,46 @@
+.header {
+    float: left;
+    width: 100%;
+    background: #573fd9;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 120px;
+    max-height: 14vh;
+    margin: 1% 0% 0% 4%;
+}
+
+.welcome {
+    position: absolute; 
+    padding-top: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.user {
+    position: absolute;
+    padding-top: 60px;
+    font-size: 12px;
+    color: #b4abeb;
+}
+
+
+.header-icon {
+    float: right;
+    padding: 38px 30px 0 0;
+    color: white;
+    font-size: 32px !important;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+        min-height: 12vh;
+    }
+    .header-icon {
+        padding: 25px 12px;
+        color: white;
+        font-size: 24px;
+    }
+}

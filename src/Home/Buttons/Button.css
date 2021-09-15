@@ -1,0 +1,60 @@
+.buttons {
+    margin-left: 40%;
+    display: inline;
+}
+
+button {
+    border-radius: 25px;
+    width: 14%;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+
+}
+
+.escrow {
+    border: 1px solid #573fd9;
+    background: white;
+    color: #573fd9;
+    margin-right: 6px;
+    padding: 12px;
+}
+
+.escrow:hover {
+    border: 1px solid white;
+    background: #573fd9;
+    color: white;
+    box-shadow: 5px 7px lightgrey;
+}
+
+.wallet {
+    border: 1px solid white;
+    background: #573fd9;
+    color: white;
+    margin-left: 6px;
+    padding: 12px;
+}
+
+.icon-wallet {
+    color: orange;
+    font-size: 16px !important;
+}
+
+.wallet:hover {
+    border: 1px solid #573fd9;
+    background: white;
+    color: #573fd9;
+    box-shadow: 5px 7px lightgrey;
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        margin-left: 20%;
+        margin-right: 0;
+    }
+    button {
+        font-size: 12px;
+        padding: 4px;
+        width: 20%;
+        border-radius: 10px;
+    }
+}

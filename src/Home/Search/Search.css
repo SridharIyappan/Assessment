@@ -1,0 +1,22 @@
+.search {
+    padding: 0;
+    display: inline;
+    margin-top: 80px;
+    width: 100%;
+}
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e8e1e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+@media ( max-width: 768px ) {
+    input {
+        width: 30%;
+    }
+} 

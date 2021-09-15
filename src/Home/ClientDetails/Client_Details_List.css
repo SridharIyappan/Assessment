@@ -1,0 +1,83 @@
+.client-details-list {
+    padding: 0;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.table {
+    width: 100% ;
+    border-collapse: collapse;
+}
+
+.first {
+    width: 10vw;
+}
+
+.table-head {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.table-body {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.35px;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.table-even:nth-child(odd) {
+    background-color: rgb(250, 248, 248);
+}
+
+i {
+    font-size: 24px !important; 
+    color: rgb(201, 193, 193);
+    position: top;
+    padding-top: 0;
+}
+
+.Completed, .Receive {
+    color: green;
+}
+
+.Disputed {
+    color: red;
+}
+
+.Active, .Send {
+    color: blue;
+}
+
+.Cancelled {
+    color: rgb(161, 153, 155);
+}
+
+@media (max-width: 768px) {
+    .table-head {
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table-body {
+        display: block;
+        width: 100%;
+    }
+    .tr {
+        margin-bottom: 15px;
+    }
+    .table-body {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .table-body::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        text-align: left;
+    }
+}
